@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:text="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:elevation="@dimen/d_14"
+    android:fitsSystemWindows="true"
+    android:layout_marginLeft="@dimen/d_20"
+    android:layout_marginRight="@dimen/d_20"
+    android:id="@+id/card_view_detail"
+    text:cardCornerRadius="@dimen/d_7"
+    android:visibility="visible">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_detail_parent"
+        >
+        <proj.me.discovery.views.CustomTextView
+            android:id="@+id/card_fest_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fest Name"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+            text:font="helvetica.otf"
+            android:padding="@dimen/d_10"
+            android:textSize="@dimen/s_30"
+            android:gravity="top|left"
+            />
+
+
+
+        <LinearLayout
+            android:id="@+id/right_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/d_10"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="@dimen/d_30"
+                android:layout_height="@dimen/d_30"
+                android:src="@drawable/heart3"/>
+
+            <proj.me.discovery.views.CustomTextView
+                android:id="@+id/like_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200K"
+                android:textColor="@android:color/secondary_text_light"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:layout_gravity="center"
+                text:font="helvetica.otf"
+                android:layout_marginTop="@dimen/d_5"
+                />
+        </LinearLayout>
+
+
+        <proj.me.discovery.views.CustomTextView
+            android:id="@+id/card_fest_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 Dec - 26 Dec"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            text:font="helvetica.otf"
+            android:padding="@dimen/d_10"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_below="@id/card_fest_name"
+            android:layout_centerHorizontal="true"
+            />
+        <proj.me.discovery.views.CustomTextView
+            android:id="@+id/card_fest_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            text:font="helvetica.otf"
+            android:padding="@dimen/d_10"
+            android:textSize="@dimen/s_25"
+            android:layout_below="@id/card_fest_date"
+            android:layout_centerHorizontal="true"
+            />
+
+        <proj.me.discovery.views.CustomTextView
+            android:id="@+id/card_fest_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Detail"
+            android:textColor="@android:color/secondary_text_light"
+            android:layout_gravity="center"
+            text:font="helvetica.otf"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="@dimen/d_10"
+            android:layout_below="@id/card_fest_year"
+            android:visibility="visible"
+            />
+        <proj.me.discovery.views.CustomTextView
+            android:id="@+id/card_fest_detail_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/event"
+            android:textColor="@android:color/secondary_text_light"
+            android:layout_gravity="center"
+            text:font="helvetica.otf"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="@dimen/d_10"
+            android:layout_below="@id/card_fest_detail"
+            android:visibility="visible"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

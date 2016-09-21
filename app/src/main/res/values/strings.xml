@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Discovery</string>
+    <string name="search_str">Name, Region, Date</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="event" formatted="false">The %s festival is very famous in %s, a beautiful place to go for in %s.\nYou may need to carry:-\n-Copy of your passport\n-Fest pass\n-Cash (Though ATM are nearby)\n</string>
+</resources>

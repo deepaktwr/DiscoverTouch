@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="bottom|center">
+    <proj.me.discovery.views.CustomEditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:padding="@dimen/d_10"
+        android:gravity="center"
+        android:hint="Choose Identity"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white_trans5"
+        android:alpha="0"
+        app:font="helvetica.otf"
+        />
+    <proj.me.discovery.views.CustomEditText
+        android:id="@+id/user_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:padding="@dimen/d_10"
+        android:gravity="center"
+        android:hint="First Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white_trans5"
+        android:alpha="0"
+        app:font="helvetica.otf"
+        />
+    <proj.me.discovery.views.CustomEditText
+        android:id="@+id/user_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:padding="@dimen/d_10"
+        android:gravity="center"
+        android:hint="Last Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white_trans5"
+        app:font="helvetica.otf"
+        />
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/deepak/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-e0e26ccfc7c805a8abe86a434206459e12222105.jar" />
+    </item>
+    <item
+        jar="/media/deepak/studio/js/Discovery/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/classes-46bf3f59f9b67ff9169d7d72626dcb1637ecd951.jar" />
+    </item>
+    <item
+        jar="/media/deepak/studio/js/Discovery/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/classes-7912f9c2b5dd3138e07883afa5935a736afd513f.jar" />
+    </item>
+    <item
+        jar="/media/deepak/studio/js/Discovery/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-30ac8b177819b6949a8754a08f272f9426670352.jar" />
+    </item>
+    <item
+        jar="/media/deepak/studio/js/Discovery/app/build/intermediates/exploded-aar/com.android.support/palette-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="060b30a619b8d3ba053e1d7dc08b3fdf0dd81530">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/classes-e3fb37d1c3ab9fd15a722bb0e34c843269dadf65.jar" />
+    </item>
+    <item
+        jar="/home/deepak/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.5/686c608d1805b6d4d425ec4459e88164ffc85870/gson-2.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/gson-2.5-2d0cdd1e3c8249dd337ea3584c3f1dc4fc2ed934.jar" />
+    </item>
+    <item
+        jar="/media/deepak/studio/js/Discovery/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/classes-46d48809340147501e151dc7d6c5992d1b39217b.jar" />
+    </item>
+    <item
+        jar="/home/deepak/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-09b34ac7631b1a88553aab6507233748ec72384b.jar" />
+    </item>
+    <item
+        jar="/media/deepak/studio/js/Discovery/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/classes-9625dfd54752beee3d92e82343e7c670151c6641.jar" />
+    </item>
+    <item
+        jar="/home/deepak/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/picasso-2.4.0-0b1f1e6331baf61efe1d50b1ba354efc61db7340.jar" />
+    </item>
+    <item
+        jar="/media/deepak/studio/js/Discovery/app/build/intermediates/exploded-aar/com.github.dmytrodanylyk.circular-progress-button/library/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8a6ed980c74ad35b2dfc4e1daf97bfc0eea5d7c9">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/classes-77a5f84c9d59d9b4d2744cb574c26d68c9ad9eea.jar" />
+    </item>
+    <item
+        jar="/media/deepak/studio/js/Discovery/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/media/deepak/studio/js/Discovery/app/build/intermediates/pre-dexed/debug/classes-9a318c6d2512d5dc0ed2dcc0395cfda8d38678f1.jar" />
+    </item>
+
+</items>

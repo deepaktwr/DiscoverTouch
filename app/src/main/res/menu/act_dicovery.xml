@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ActDicovery">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <!--<item android:id="@+id/fest_search"
+        android:title="@string/app_name"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="proj.me.discovery.views.FestivalSerch"
+        app:actionViewClass="proj.me.discovery.views.FestivalSerch"/>-->
+</menu>

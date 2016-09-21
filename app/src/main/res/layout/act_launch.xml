@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".ActLaunch">
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/progress_button"
+        android:layout_width="@dimen/d_180"
+        android:layout_height="@dimen/d_55"
+        android:textColor="@color/cpb_white"
+        android:textSize="@dimen/s_20"
+        app:cpb_cornerRadius="@dimen/d_30"
+        app:cpb_iconComplete="@mipmap/ic_action_accept"
+        app:cpb_iconError="@mipmap/ic_action_cancel"
+        app:cpb_textIdle="Let's Go"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/d_48"
+        android:layout_centerHorizontal="true"
+        android:alpha="0"/>
+
+    <proj.me.discovery.views.CustomTextView
+        android:id="@+id/user_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:font="helvetica.otf"
+        android:layout_above="@id/progress_button"
+        android:layout_marginBottom="@dimen/d_30"
+        android:layout_centerHorizontal="true"
+        android:text="New User?"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/white_trans3"
+        />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/user_text"
+        android:layout_marginBottom="@dimen/d_30"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="@dimen/d_32"
+        android:layout_marginLeft="@dimen/d_32"
+        />
+
+
+</RelativeLayout>

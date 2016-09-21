@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primaryText">#c9bfbf</color>
+    <color name="secondaryText">#c2b8b8</color>
+
+    <color name="text_bg">#54393534</color>
+    <color name="textPrimary">#f3e2d5d5</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_trans1">#EEFFFFFF</color>
+    <color name="white_trans2">#DDFFFFFF</color>
+    <color name="white_trans3">#CCFFFFFF</color>
+    <color name="white_trans4">#AAFFFFFF</color>
+    <color name="white_trans5">#99FFFFFF</color>
+    <color name="white_trans6">#77FFFFFF</color>
+    <color name="white_trans7">#55FFFFFF</color>
+    <color name="white_trans8">#33FFFFFF</color>
+    <color name="white_trans9">#11FFFFFF</color>
+    <color name="white_trans">@android:color/transparent</color>
+
+    <array name="trans_whites">
+        <item>@color/white_trans</item>
+        <item>@color/white_trans9</item>
+        <item>@color/white_trans8</item>
+        <item>@color/white_trans7</item>
+        <item>@color/white_trans6</item>
+        <item>@color/white_trans5</item>
+        <item>@color/white_trans4</item>
+        <item>@color/white_trans3</item>
+        <item>@color/white_trans2</item>
+        <item>@color/white_trans1</item>
+        <item>@color/white</item>
+
+    </array>
+</resources>
